@@ -88,11 +88,12 @@
       "default": 0
     },
     "entradaCreada": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
+    },
+    "firmaChofer": {
+      "type": "string"
     }
-    
-
-
   },
   "validations": [],
   "relations": {},

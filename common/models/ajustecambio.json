@@ -1,0 +1,32 @@
+{
+  "name": "ajustecambio",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "ruta": {
+      "type": "number"
+    },
+    "comentario": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "lts": {
+      "type": "number"
+    },
+    "cedi": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,93 @@
+{
+  "name": "cambio",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "ruta": {
+      "type": "number"
+    },
+    "comentario": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "codigo": {
+      "type": "string"
+    },
+    "codigoFecha": {
+      "type": "string"
+    },
+    "q10": {
+      "type": "number",
+      "default": 0
+    },
+    "q20": {
+      "type": "number",
+      "default": 0
+    },
+    "q25": {
+      "type": "number",
+      "default": 0
+    },
+    "q25r": {
+      "type": "number",
+      "default": 0
+    },
+    "q30": {
+      "type": "number",
+      "default": 0
+    },
+    "q35": {
+      "type": "number",
+      "default": 0
+    },
+    "q40": {
+      "type": "number",
+      "default": 0
+    },
+    "q45": {
+      "type": "number",
+      "default": 0
+    },
+    "q50": {
+      "type": "number",
+      "default": 0
+    },
+    "q60r": {
+      "type": "number",
+      "default": 0
+    },
+    "q100": {
+      "type": "number",
+      "default": 0
+    },
+    "otro": {
+      "type": "number",
+      "default": 0
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "cambioTotal": {
+      "type": "number"
+    },
+    "estado": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

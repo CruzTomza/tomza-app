@@ -121,11 +121,143 @@
     "dataSource": "tomza",
     "public": true
   },
+  "bodega_camion": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "requisa": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "remesarecargas": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "fachistorico": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "preventa": {
+    "dataSource": "tomza",
+    "public": true
+  },
   "lecturasanteriores": {
     "dataSource": "tomza",
     "public": true
   },
-  "bodega_camion": {
+  "respaldoLecturas": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "provincia": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "cisterna": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "ordenesproduccion": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "carreta": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "bodegacedi": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "remesa": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "ajusteinventario": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "granel": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "bodegatrasiego": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "bodegaDescargas": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "descargas": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "ajustetrasiego": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "cambio": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "ordencompra": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "aceptado": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "rechazado": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "contrapedido": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "ajustecambio": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "userClient": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "clientLocation": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "sellos": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "sellosSupervisor": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "usertaller": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "reparacion": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "cambioAceite": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "bitacoraTaller": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "bod_combustible": {
+    "dataSource": "tomza",
+    "public": true
+  },
+  "descarga_gasol": {
     "dataSource": "tomza",
     "public": true
   }

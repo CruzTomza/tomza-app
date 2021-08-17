@@ -1,0 +1,45 @@
+{
+  "name": "sellos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "consecutivoIni": {
+      "type": "number"
+    },
+    "consecutivoFin": {
+      "type": "number"
+    },
+    "ruta": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "responsable": {
+      "type": "string"
+    },
+    "sellosTotal": {
+      "type": "number"
+    },
+    "sellosDisp": {
+      "type": "number"
+    },
+    "sellosEntrantes": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "bodegatrasiego",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "litrosAlmacenados": {
+      "type": "number"
+    },
+    "unidadNegocio": {
+      "type": "string"
+    },
+    "totalLitros": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

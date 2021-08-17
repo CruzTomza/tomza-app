@@ -23,6 +23,21 @@
     },
     "capacidad": {
       "type": "string"
+    },
+    "kmInicial": {
+      "type": "number"
+    },
+    "kmTotal": {
+      "type": "number"
+    },
+    "rtv": {
+      "type": "string"
+    },
+    "tc": {
+      "type": "string"
+    },
+    "cambio": {
+      "type": "number"
     }
   },
   "validations": [],

@@ -1,0 +1,39 @@
+{
+  "name": "sellosSupervisor",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "consecutivoIni": {
+      "type": "number"
+    },
+    "consecutivoFin": {
+      "type": "number"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "sede": {
+      "type": "string"
+    },
+    "supervisor": {
+      "type": "string"
+    },
+    "responsable": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

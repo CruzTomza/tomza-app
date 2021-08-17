@@ -1,0 +1,75 @@
+{
+  "name": "ordenesproduccion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "ruta": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "litrostotales": {
+      "type": "string"
+    },
+    "q10": {
+      "type": "number",
+      "default": 0
+    },
+    "q20": {
+      "type": "number",
+      "default": 0
+    },
+    "q25": {
+      "type": "number",
+      "default": 0
+    },
+    "q25r": {
+      "type": "number",
+      "default": 0
+    },
+    "q30": {
+      "type": "number",
+      "default": 0
+    },
+    "q35": {
+      "type": "number",
+      "default": 0
+    },
+    "q40": {
+      "type": "number",
+      "default": 0
+    },
+    "q45": {
+      "type": "number",
+      "default": 0
+    },
+    "q50": {
+      "type": "number",
+      "default": 0
+    },
+    "q60r": {
+      "type": "number",
+      "default": 0
+    },
+    "q100": {
+      "type": "number",
+      "default": 0
+    },
+    "tipo": {
+      "type": "string",
+      "default": "Orden de Produccion"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

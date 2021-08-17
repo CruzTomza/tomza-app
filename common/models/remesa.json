@@ -1,0 +1,116 @@
+{
+  "name": "remesa",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "ruta": {
+      "type": "string"
+    },
+    "realizadoPor": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "chofer": {
+      "type": "number"
+    },
+    "placaCamion": {
+      "type": "string"
+    },
+    "q10": {
+      "type": "number",
+      "default": 0
+    },
+    "q20": {
+      "type": "number",
+      "default": 0
+    },
+    "q25": {
+      "type": "number",
+      "default": 0
+    },
+    "q25r": {
+      "type": "number",
+      "default": 0
+    },
+    "q30": {
+      "type": "number",
+      "default": 0
+    },
+    "q35": {
+      "type": "number",
+      "default": 0
+    },
+    "q40": {
+      "type": "number",
+      "default": 0
+    },
+    "q45": {
+      "type": "number",
+      "default": 0
+    },
+    "q50": {
+      "type": "number"
+    },
+    "q60r": {
+      "type": "number",
+      "default": 0
+    },
+    "q100": {
+      "type": "number",
+      "default": 0
+    },
+    "lts": {
+      "type": "number",
+      "default": 0
+    },
+    "firma": {
+      "type": "string"
+    },
+    "q10m": {
+      "type": "number"
+    },
+    "q20m": {
+      "type": "number"
+    },
+    "q25m": {
+      "type": "number"
+    },
+    "q25rm": {
+      "type": "number"
+    },
+    "q30m": {
+      "type": "number"
+    },
+    "q35m": {
+      "type": "number"
+    },
+    "q40m": {
+      "type": "number"
+    },
+    "q45m": {
+      "type": "number"
+    },
+    "q50m": {
+      "type": "number"
+    },
+    "q60m": {
+      "type": "number"
+    },
+    "q100m": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
