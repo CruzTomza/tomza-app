@@ -38,6 +38,12 @@
     },
     "cambio": {
       "type": "number"
+    },
+    "pesos_dimensiones": {
+      "type": "string"
+    },
+    "MINAE": {
+      "type": "string"
     }
   },
   "validations": [],

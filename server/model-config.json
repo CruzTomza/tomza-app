@@ -260,5 +260,9 @@
   "descarga_gasol": {
     "dataSource": "tomza",
     "public": true
+  },
+  "pesos_dimensiones": {
+    "dataSource": "tomza",
+    "public": true
   }
 }
